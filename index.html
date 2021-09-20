@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="assets/style/style.css" rel="stylesheet" type="text/css" />
+    <title>Take Order - Noreen's Cafe</title>
+  </head>
+  <body>
+    <!--Main Section-->
+    <section>
+      <!--Header Div - nav bar and process button -->
+      <div class="header">
+        <a href="index.html" class="logo">Noreen's Cafe</a>
+        <div class="header-right">
+          <a class="active" href="index.html">Take Order</a>
+          <a href="feedback.html">Contact</a>
+        </div>
+        <div class="processbtn">
+          <button onclick="processorder()">ProcessOrder</button>
+        </div>
+      </div>
+      <!--Container div to hold both MENU and OrderDetail-->
+      <div class="container" id="container">
+        <!--order detail div - hold's data from menu array-->
+        <div class="div1" id="div1">
+          <h2>Order Details</h2>
+          <div class="order-div" id="order-div">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>NAME</th>
+                  <th>QTY</th>
+                  <th>PRICE</th>
+                </tr>
+              </thead>
+              <tbody class="tbody" id="tbody"></tbody>
+            </table>
+          </div>
+        </div>
+        <!--Menu div - Hold's menu of cafe-->
+        <div class="div2" id="div2">
+          <div class="button" id="button">
+            <!--Traditional button-->
+            <button
+              class="traditional-btn"
+              id="traditionalbtn"
+              onclick="getTraditional();"
+            >
+              Traditional
+            </button>
+            <!--Chineese Button-->
+            <button
+              class="chinese-btn"
+              id="chinesebtn"
+              onclick="getChineese();"
+            >
+              Chinese
+            </button>
+            <!--FastFood Button-->
+            <button
+              class="fastFood-btn"
+              id="fastFoodbtn"
+              onclick="getFastFood();"
+            >
+              Fast Food
+            </button>
+          </div>
+          <br />
+          <!--Div to show menu on buttonCLick-->
+          <div id="trd-div"></div>
+        </div>
+      </div>
+    </section>
+    <!--Script's-->
+    <script src="assets/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
