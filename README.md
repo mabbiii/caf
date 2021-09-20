@@ -90,9 +90,38 @@ Other foreground and background color used in the sites are
 ![Mobile Version](assets/images/mobile-Contact.PNG)
 
 
+# 2. Features
+  [Go to the top](#table-of-contents)
+  
+- Noreen's Cafe Hyper link is placed at the top left of each of the website. 
+- Navigation bar is placed at top right of each page of the website.
+- Sweetalert is used to create beautiful alerts.
+- Social media links is placed at bottom of each page.
+- All the dishes that are served in noreen's Cafe is displayed with its description and it's origin and price. 
+- Dishes are categorised is three sections. Traditional, chinese and fast food for better understanding of the user.
+
+### Home Page
+
+- Noreen's Cafe hyper link is placed on top left corner of the page.
+- Navigation bar is placed at on top right corner of the page.
+- Process Button is placed in center of the page
+- page conatins two section's one is showing order details. the order which is given by the user.
+- second section show's menu list which are the item offered by our cafe.
+- when waiter click on the process button, a popup appears with subtotal and options with cancel order and proceed order.
+- when click on the process order, ther order is completed and a reciept is printed.
+- when click on the cancel order, order is canceld.
+
+Secreen shot of the Home page is below:
 
 
-
+![introduction page review ](assets/images/index.JPG)
+![introduction page review ](assets/images/TraditionalScreen.JPG)
+![introduction page review ](assets/images/ChineeseScreen.JPG)
+![introduction page review ](assets/images/FastFoodScreen.JPG)
+![introduction page review ](assets/images/OrderDetailScreen.JPG)
+![introduction page review ](assets/images/SubTotalScreen.JPG)
+![introduction page review ](assets/images/CancelScreen.JPG)
+![introduction page review ](assets/images/ContactScreen.JPG)
 
 
 
