@@ -68,12 +68,19 @@ Other foreground and background color used in the sites are
 
 
 ![Desktop Version](assets/images/Home.PNG)
+### Traditional
 ![Desktop Version](assets/images/Traditional.PNG)
+### Chinese
 ![Desktop Version](assets/images/chineese.PNG)
+### FastFood
 ![Desktop Version](assets/images/FastFood.PNG)
+### OrderDetails
 ![Desktop Version](assets/images/OrderDetails.PNG)
+### ProcessOrder
 ![Desktop Version](assets/images/ProcessOrder.PNG)
+### SubTotal
 ![Desktop Version](assets/images/SubTotal.PNG)
+### cancel
 ![Desktop Version](assets/images/cancel.PNG)
 
 
